@@ -155,6 +155,8 @@ clusterDNS:
   - "10.96.0.10"
 resolvConf: "/run/systemd/resolve/resolv.conf"
 runtimeRequestTimeout: "15m"
+featureGates:
+  CSIMigration: false
 EOF
 ```
 
